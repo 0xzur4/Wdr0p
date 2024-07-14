@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Webdrop</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <span><a href="index.html">WebDrop</a></span>
+            <div class="search">
+                <input type="text" id="cari" oninput="filterItems()" placeholder="Search">
+            </div>
+        </nav>
+    </header>
+    <div class="side-container">
+    <aside class="daftar">
+        <ul class="h-list">
+            <button class="dropdown-btn"><a href="page/Airdrop.html" onclick="loadContent('page/Airdrop.html'); return false;">Airdrop</a>
+                <i class="fa fa-caret-down" aria-hidden="true"></i>
+            </button>
+            <div class="list">
+            <ul class="list-none">
+                <li><a href="page/Wallet.html" onclick="loadContent('page/Wallet.html'); return false;">Wallet</a></li>
+                <li><a href="page/Jenis.html" onclick="loadContent('page/Jenis.html'); return false;">Jenis</a></li>
+                <li><a href="page/Network.html" onclick="loadContent('page/Network.html'); return false;">Network</a></li>
+            </ul>
+            </div>
+            <li class="airdrop"><a href="page/project/Voi.html" onclick="loadContent('page/project/Voi.html'); return false;">Voi</a></li>
+            <li class="airdrop"><a href="page/project/Plume.html" onclick="loadContent('page/project/Plume.html'); return false;">Plume</a></li>
+            <li class="airdrop"><a href="page/project/Pingpong.html" onclick="loadContent('page/project/Pingpong.html'); return false;">Pingpong</a></li>
+            <li class="airdrop"><a href="page/project/Allo.html" onclick="loadContent('page/project/Allo.html'); return false;">Allo</a></li>
+            <li class="airdrop"><a href="page/project/Aurory.html" onclick="loadContent('page/project/Aurory.html'); return false;">Aurory</a></li>
+            <li class="airdrop"><a href="page/project/Nubit.html" onclick="loadContent('page/project/Nubit.html'); return false;">Nubit</a></li>
+    </aside>
+    <aside class="content" id="main-content">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quisquam voluptates explicabo! At et deleniti, perferendis nihil expedita, neque temporibus quod eum nesciunt voluptas alias voluptatum dolorem necessitatibus rem doloremque!</p>
+        <div class="next-page">
+            <div class="btn-left">
+                <a href="page/Wallet.html" onclick="loadContent('page/Wallet.html'); return false;">Wallet </a><i class="fa fa-chevron-right"></i>
+            </div>
+        </div>
+    </aside>
+</div>
+    <script src="js/script.js"></script>
+</body>
+</html>

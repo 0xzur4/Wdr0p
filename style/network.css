@@ -1,0 +1,24 @@
+.btn-right{
+    height: 50px;
+    border-radius: 7px;
+    border: solid 1px ;
+    width: 100px;
+    padding: 15px 15px;
+    cursor: pointer;
+}
+.btn-right a{
+    text-decoration: none;
+    color: black;
+}
+.btn-left{
+    height: 50px;
+    border-radius: 7px;
+    border: solid 1px ;
+    width: 100px;
+    padding: 15px 12px;
+    cursor: pointer;
+}
+.btn-left a{
+    text-decoration: none;
+    color: black;
+}
